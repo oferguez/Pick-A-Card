@@ -10,6 +10,7 @@ function showRandomImage() {
     const imageUrl = images[randomIndex];
     
     const imageElement = document.getElementById('randomImage');
+    alert(imageUrl);
     imageElement.src = imageUrl;
     imageElement.style.display = 'block';
 }
