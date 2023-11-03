@@ -1,6 +1,7 @@
 const images = [
-    'images/image1.jpg',
-    'images/image2.jpg',
+    'IMG_8614.jpg',
+    'IMG_8731.jpg',
+    'IMG_8810.jpg'
     // ... add paths to other images
 ];
 
