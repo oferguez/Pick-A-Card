@@ -1,8 +1,7 @@
 const images = [
-    'IMG_8614.jpeg',
-    'IMG_8731.jpeg',
-    'IMG_8810.jpeg'
-    // ... add paths to other images
+'IMG_2023-11-04-072527.jpeg',
+'IMG_2023-11-04-072824.jpeg',
+'IMG_2499.jpeg'
 ];
 
 function showRandomImage() {
