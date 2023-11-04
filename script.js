@@ -1,6 +1,6 @@
-document.addEventListener("DOMContentLoaded", function() {
-    fetchCommitInfo();
-});
+// document.addEventListener("DOMContentLoaded", function() {
+//     fetchCommitInfo();
+// });
 
 function fetchCommitInfo() {
     const repoOwner = "oferguez"; // Replace with your GitHub username
@@ -24,13 +24,23 @@ function fetchCommitInfo() {
 
 
 const images = [
-'IMG_2023-11-04-072527.jpeg',
-'IMG_2023-11-04-072824.jpeg',
-'IMG_2023-11-04-080417.jpeg'
+'images/IMG_2023-11-04-072527.jpeg',
+'images/IMG_2023-11-04-072824.jpeg',
+'images/IMG_2023-11-04-080417.jpeg',
+'images/Rotated-IMG_2023-11-04-072527.jpg',
+'images/Rotated-IMG_2023-11-04-072824.jpg',
+'images/Rotated-IMG_2023-11-04-080417.jpg'
 ];
 
+let lastImageIndex = null;
+
 function showRandomImage() {
-    const randomIndex = Math.floor(Math.random() * images.length);
+
+    let randomIndex;
+    do {
+    randomIndex = Math.floor(Math.random() * images.length);
+    } while (randomIndex === lastImageIndex);
+    lastImageIndex = randomIndex;
     const imageUrl = images[randomIndex];
     
     const imageElement = document.getElementById('randomImage');
