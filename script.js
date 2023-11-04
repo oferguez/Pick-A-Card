@@ -24,12 +24,12 @@ function fetchCommitInfo() {
 
 
 const images = [
-'images/IMG_2023-11-04-072527.jpeg',
-'images/IMG_2023-11-04-072824.jpeg',
-'images/IMG_2023-11-04-080417.jpeg',
-'images/Rotated-IMG_2023-11-04-072527.jpg',
-'images/Rotated-IMG_2023-11-04-072824.jpg',
-'images/Rotated-IMG_2023-11-04-080417.jpg'
+'Images/IMG_2023-11-04-072527.jpeg',
+'Images/IMG_2023-11-04-072824.jpeg',
+'Images/IMG_2023-11-04-080417.jpeg',
+'Images/Rotated-IMG_2023-11-04-072527.jpg',
+'Images/Rotated-IMG_2023-11-04-072824.jpg',
+'Images/Rotated-IMG_2023-11-04-080417.jpg'
 ];
 
 let lastImageIndex = null;
