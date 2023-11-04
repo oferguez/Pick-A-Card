@@ -26,7 +26,7 @@ function fetchCommitInfo() {
 const images = [
 'IMG_2023-11-04-072527.jpeg',
 'IMG_2023-11-04-072824.jpeg',
-''
+'IMG_2023-11-04-080417.jpeg'
 ];
 
 function showRandomImage() {
